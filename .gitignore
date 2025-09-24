@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -205,3 +205,67 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# =============================================================================
+# MACHINE LEARNING PROJECT ADDITIONS
+# =============================================================================
+
+# Data files (too large for git, keep local only)
+data/
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.feather
+
+# Model files (too large for git, keep local only)
+models/
+saved_models/
+*.pkl
+*.pickle
+*.joblib
+*.sav
+*.model
+*.pt
+*.pth
+*.onnx
+
+# Jupyter Notebook checkpoints (already covered above but being explicit)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Large result files
+results/
+outputs/
+plots/
+figures/
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# MLflow tracking
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard logs
+logs/
+tensorboard/
+
+# Experiment tracking
+experiments/
+checkpoints/
+
+# Large archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
