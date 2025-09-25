@@ -3,4 +3,4 @@ End-to-end machine learning project predicting customer churn using advanced cla
 
 This project predicts which telecom customers are likely to leave, enabling targeted retention campaigns. By analyzing usage patterns and support interactions, the model helps reduce churnfrom 14% toward 10%, saving thousands in customer acquisition costs.
 
-[Business Understanding Notebook] (https://github.com/DaewangMohan/customer-churn-prediction/blob/main/notebooks/01_business_understanding.ipynb)
+[Business Understanding Notebook](https://github.com/DaewangMohan/customer-churn-prediction/blob/main/notebooks/01_business_understanding.ipynb)
